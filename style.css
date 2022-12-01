@@ -1,0 +1,12 @@
+.Fooldal{
+    background: url(/Images/Főoldal/hatter.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#BevezetoText{
+    background-color: rgba(26, 26, 26, 0.842);
+    border-radius: 10px
+}
