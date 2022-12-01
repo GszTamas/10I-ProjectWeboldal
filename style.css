@@ -1,0 +1,13 @@
+.doboz1{
+    float: left;
+}
+.tagok{
+    background: url(/Images/Tagok/tortenet.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.doboz2{
+    float: right;
+}
