@@ -1,3 +1,16 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/Fonts/Roboto-Regular.ttf);
+  }
+  
+  div {
+    font-family: Roboto;
+  }
+  @font-face {
+    font-family: Roboto;
+    src: url(/Fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+  }
 .Fooldal{
     background: url(/Images/Főoldal/hatter.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -8,5 +21,6 @@
 
 #BevezetoText{
     background-color: rgba(26, 26, 26, 0.842);
-    border-radius: 10px
+    border-radius: 10px;
+    font-family: Roboto;
 }
