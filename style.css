@@ -1,4 +1,17 @@
-.doboz1{
+@font-face {
+    font-family: Roboto;
+    src: url(/Fonts/Roboto-Regular.ttf);
+  }
+  
+  div {
+    font-family: Roboto;
+  }
+  @font-face {
+    font-family: Roboto;
+    src: url(/Fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+  }
+  .doboz1{
     align-content: center;
     border-radius: 40px;
     text-align: center;
@@ -13,4 +26,78 @@
 }
 .btn{
     margin: 2px;
+}
+.Fooldal{
+    background: url(/Images/Főoldal/hatter.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#BevezetoText{
+    background-color: rgba(26, 26, 26, 0.842);
+    border-radius: 10px;
+    font-family: Roboto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.HirekSzekcio{
+  padding: 20px;
+}
+
+.hirek{
+  background: url(/Images/Hírek/xpanorama1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }
