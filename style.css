@@ -39,10 +39,17 @@
 }
 
 #BevezetoText{
-    background-color: rgba(26, 26, 26, 0.842);
+    background-color: rgba(0, 110, 255, 0.842);
     border-radius: 10px;
     font-family: Roboto;
 }
+.Teljesitmenyek{
+  background: url(/Images/Teljesítmények/hatter2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+=======
 
 * {
   box-sizing: border-box;
@@ -123,4 +130,4 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-}
+  }
