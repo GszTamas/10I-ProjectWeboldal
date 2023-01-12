@@ -41,8 +41,9 @@
 #BevezetoText{
     background-color: rgba(0, 110, 255, 0.842);
     border-radius: 10px;
+    border-width: 60%;
     font-family: Roboto;
-    font-size: 67%;
+    font-size: 70%;
 }
 .Teljesitmenyek{
   background: url(Images/Teljesítmények/hatter2.jpg) no-repeat center center fixed;
