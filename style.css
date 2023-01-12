@@ -42,6 +42,7 @@
     background-color: rgba(0, 110, 255, 0.842);
     border-radius: 10px;
     font-family: Roboto;
+    font-size: 67%;
 }
 .Teljesitmenyek{
   background: url(Images/Teljesítmények/hatter2.jpg) no-repeat center center fixed;
